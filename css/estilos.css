@@ -62,8 +62,9 @@ font-family:	"Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
         margin-top:	10px;
         padding-bottom:	10px;	
     } 
-.destaque-home.png {
-    
+    .banner-destaque {
+        position: sticky;
+        display: flow-root;
 }
    
 
