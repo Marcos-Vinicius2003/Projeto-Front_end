@@ -35,4 +35,21 @@ header	{
 .menu-departamentos	a	{
     color:	#333333;
     text-decoration:	none;
-	} 
+    } 
+    .busca,
+    .menu-departamentos	{
+        float:	left;	
+    }
+	.menu-departamentos	{
+        clear:	left;	
+    }
+    .destaque	{
+        margin-top:	10px;
+
+    }
+
+	.menu-departamentos	{
+        margin-top:	10px;
+        padding-bottom:	10px;
+
+    } 
