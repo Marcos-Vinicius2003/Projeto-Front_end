@@ -1,0 +1,17 @@
+.sacola {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.container	{
+    margin:	0	auto;
+    width:	940px;	
+}
+header	{
+    position:	relative;	
+}
+.menu-opcoes {
+    position: absolute;
+    bottom: -46px;
+    right: 0;
+}
