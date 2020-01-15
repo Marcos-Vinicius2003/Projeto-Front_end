@@ -7,6 +7,59 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
 
+    <style>
+        * {
+
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .galeria {
+            margin: 200px auto;
+            width: 480px;
+            height: 270px;
+            position: relative;
+            overflow: hidden;
+
+        }
+
+        .foto {
+            position: absolute;
+            opacity: 0;
+            animation-name: animacao;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animacao {
+            25% {
+                opacity: 1;
+                transform: scale(1.1, 1.1);
+            }
+
+            50% {
+                opacity: 0;
+                ;
+            }
+        }
+
+        .foto:nth-child(1) {}
+
+        .foto:nth-child(2) {
+            animation-delay: 5s;
+
+        }
+
+        .foto:nth-child(3) {
+            animation-delay: 10s;
+
+        }
+
+        .foto:nth-child(4) {
+            animation-delay: 15s;
+        }
+    </style>
+
 </head>
 
 
@@ -48,15 +101,16 @@
 
         <section class="banner-destaque">
             <figure> <img src="img/destaque-home.png" alt="Promoção:	Big	City	Night"> </figure>
-        </section> <!--	fim	.banner-destaque	-->=
+        </section> <!--	fim	.banner-destaque	-->
     </div> <!--	fim	.container	.destaque	-->
-    <div class="col-100">
-        <div class="destaque">
-            <img src="./img/produtos/miniatura2.png" />
-            <img src="./img/produtos/miniatura7.png" />
-            <img src="./img/produtos/miniatura9.png" />
-            <img src="./img/produtos/miniatura12.png" />
-        </div>
+    <h2> Destaque Da Semana </h2>
+    <section class="galeria">
+        <img class="foto" src="./img/produtos/miniatura3.png" />
+        <img class="foto" src="./img/produtos/miniatura5.png" />
+        <img class="foto" src="./img/produtos/miniatura7.png" />
+        <img class="foto" src="./img/produtos/miniatura13.png" />
+    </section>
+
 
 
 

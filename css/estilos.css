@@ -65,3 +65,12 @@ font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
         display: flow-root;
 
 }
+h2 {
+    text-align: center;
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 55px;
+    margin: 157px;
+    margin-top: 63px;
+}
