@@ -74,3 +74,30 @@ h2 {
     margin: 157px;
     margin-top: 63px;
 }
+.redes-sociais {
+    width: 25%;
+    float: right;
+    position: relative;
+    margin-top: -69px;
+}
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.footer-2 {
+    background-image: url(../img/footer.png);
+    color: #c1c1c1;
+    height: 72px;
+    margin-top: -42px;
+    margin-right: 113px;
+    margin-left: 153px;
+}
+.ul-1 {
+    list-style-type: none;
+
+}
+h5 {
+    padding: 3%;
+    color: black;
+}

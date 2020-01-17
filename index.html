@@ -7,60 +7,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
 
-    <style>
-        * {
 
-            margin: 0px;
-            padding: 0px;
-        }
-
-        .galeria {
-            margin: 200px auto;
-            width: 480px;
-            height: 270px;
-            position: relative;
-            overflow: hidden;
-
-        }
-
-        .foto {
-            position: absolute;
-            opacity: 0;
-            animation-name: animacao;
-            animation-duration: 20s;
-            animation-iteration-count: infinite;
-        }
-
-        @keyframes animacao {
-            25% {
-                opacity: 1;
-                transform: scale(1.1, 1.1);
-            }
-
-            50% {
-                opacity: 0;
-                ;
-            }
-        }
-
-        .foto:nth-child(1) {}
-
-        .foto:nth-child(2) {
-            animation-delay: 5s;
-
-        }
-
-        .foto:nth-child(3) {
-            animation-delay: 10s;
-
-        }
-
-        .foto:nth-child(4) {
-            animation-delay: 15s;
-        }
-    </style>
 
 </head>
+
 
 
 <body>
@@ -88,8 +38,8 @@
             <h2>Departamentos</h2>
             <nav>
                 <ul>
-                    <li><a href="#">Blusas</a></li>
-                    <li><a href="#">Calças</a></li>
+                    <li><a href="#"> Blusas </a></li>
+                    <li><a href="#"> Calças </a></li>
                     <li><a href="#">Tênis</a></li>
                     <li><a href="#">Camisa</a></li>
                     <li><a href="#">Relogio</a></li>
@@ -103,19 +53,43 @@
             <figure> <img src="img/destaque-home.png" alt="Promoção:	Big	City	Night"> </figure>
         </section> <!--	fim	.banner-destaque	-->
     </div> <!--	fim	.container	.destaque	-->
-    <h2> Destaque Da Semana </h2>
-    <section class="galeria">
-        <img class="foto" src="./img/produtos/miniatura3.png" />
-        <img class="foto" src="./img/produtos/miniatura5.png" />
-        <img class="foto" src="./img/produtos/miniatura7.png" />
-        <img class="foto" src="./img/produtos/miniatura13.png" />
-    </section>
+    <footer>
+        <div class="col-100 footer-2">
+            <div class="content">
+                <div class="escritas">
+                    <h5>
+                        © Mundo da Web de 2020. Todos os direitos reservados. Marcos V.
+                    </h5>
+                </div>
+            </div>
+            <div class="redes-sociais">
+                <ul-1 style="list-style-type: none;">
+                    <li style="float: left; margin-right: 15px; color: black;">
+                        <a href="">
+                            <img src="./img/Logo-Linkedin.png" />
+                        </a>
+                    </li>
+                    <li style="float: left; margin-right: 15px; color: black;">
+                        <a href="">
+                            <img src="./img/Logo-Facebook.png" />
+                        </a>
+                    </li>
+                    <li style="float: left; margin-right: 15px; color: black;">
+                        <a href="">
+                            <img src="./img/Logo-twitter.png" />
+                        </a>
+                    </li>
+                    <li style="float: left; margin-right: 15px; color: black;">
+                        <a href="">
+                            <img src="./img/Logo-Wifi.png" />
 
-
-
-
-
-
+                        </a>
+                    </li>
+                </ul-1>
+            </div>
+        </div>
+    </footer>
 </body>
+
 
 </html>
