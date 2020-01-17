@@ -10,7 +10,43 @@
 
 
 </head>
+<style>
+    .foto {
+        margin-left: 366px;
+        position: absolute;
+        opacity: 0;
+        animation-name: animacao;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        margin-top: -96px;
 
+    }
+
+    @keyframes animacao {
+        25% {
+            opacity: 1;
+            transform: scale(1.1, 1.1);
+        }
+
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .foto:nth-child(1) {}
+
+    .foto:nth-child(2) {
+        animation-delay: 5s;
+    }
+
+    .foto:nth-child(3) {
+        animation-delay: 10s;
+    }
+
+    .foto:nth-child(4) {
+        animation-delay: 15s;
+    }
+</style>
 
 
 <body>
@@ -53,6 +89,14 @@
             <figure> <img src="img/destaque-home.png" alt="Promoção:	Big	City	Night"> </figure>
         </section> <!--	fim	.banner-destaque	-->
     </div> <!--	fim	.container	.destaque	-->
+    <section class="destaques">
+        <h2>Destaques</h2>
+        <img class="foto" src="C:\Users\User\Desktop\Projeto-Front_end\img\produtos\01.png" />
+        <img class="foto" src="C:\Users\User\Desktop\Projeto-Front_end\img\produtos\02.png" />
+        <img class="foto" src="C:\Users\User\Desktop\Projeto-Front_end\img\produtos\03.png" />
+        <img class="foto" src="C:\Users\User\Desktop\Projeto-Front_end\img\produtos\04.png" />
+    </section>
+
     <footer>
         <div class="col-100 footer-2">
             <div class="content">
